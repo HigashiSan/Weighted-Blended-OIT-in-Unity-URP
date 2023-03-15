@@ -5,8 +5,10 @@ This project is to implement Weighted Blended OIT in Unity URP.I do this job in 
 Reference:
 
 [paper-lowres.pdf](https://github.com/HigashiSan/Weighted-Blended-OIT-in-Unity-URP/files/10974002/paper-lowres.pdf)
+![image](https://user-images.githubusercontent.com/56297955/225170769-d0a305b8-f2c0-495d-917a-5135ed860bb9.png)
 
-Core:
+
+Core idea:
 
 ![image](https://user-images.githubusercontent.com/56297955/225149597-95f29a0d-4470-43de-8cac-c5c4cf3a0e9a.png)
 
