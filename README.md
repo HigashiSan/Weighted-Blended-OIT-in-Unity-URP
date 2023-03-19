@@ -20,7 +20,7 @@ Four weight functions:
 ### How to do
 First using alpha and depth to determind how much color it contribute(Ci), then let the albedo(basic color) multiply by Ci.Write it in the accumTexture.
 
-Second using Blend 1 Zero OneMinusSrcAlpha blend order to write alpha to revealageTexture.
+Second using *Blend 1 Zero OneMinusSrcAlpha* blend order to write alpha to revealageTexture.
 
 Finally using these two texture to blend with background:
 
