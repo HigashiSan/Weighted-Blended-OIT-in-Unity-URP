@@ -24,4 +24,5 @@ Second using **Blend 1 Zero OneMinusSrcAlpha** blend order to write alpha to rev
 
 Finally using these two texture to blend with background:
 
-![image](https://user-images.githubusercontent.com/56297955/225151896-d89f8e5e-9a8e-4271-bf36-2ab2317a0e54.png)
+![image](https://user-images.githubusercontent.com/56297955/226152483-fbf93649-2456-4a4f-8fa9-28bba098881f.png)
+
