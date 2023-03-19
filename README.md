@@ -18,9 +18,9 @@ Four weight functions:
 ![image](https://user-images.githubusercontent.com/56297955/225148444-61f9a513-1bee-4978-9f04-ec167ad3df83.png)
 
 ### How to do
-First using alpha and depth to determind how much color it contribute(Ci), then let the albedo(basic color) multiply by Ci.Write it in the accumTexture.
+First using alpha and depth to determind how much color it contribute(Ci), then let the albedo(basic color) multiply by Ci. Use linear addition to write the color contribution to the accumTexture. 
 
-Second using *Blend 1 Zero OneMinusSrcAlpha* blend order to write alpha to revealageTexture.
+Second using **Blend 1 Zero OneMinusSrcAlpha** blend order to write alpha to revealageTexture. Its main idea is that by subtracting alpha in turn, you can assume that the alpha of each translucent object affects the color of the background, and the more alpha accumulates, the greater the effect.
 
 Finally using these two texture to blend with background:
 
